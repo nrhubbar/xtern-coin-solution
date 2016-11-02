@@ -1,0 +1,11 @@
+FROM node:argon
+
+#Pull Down Code
+RUN git clone https://github.com/nrhubbar/xtern-coin-solution.git
+
+#Download Dependencies
+WORKDIR /xtern-coin-solution/better-solution
+RUN npm install
+
+#Expose Port
+EXPOSE 3000
