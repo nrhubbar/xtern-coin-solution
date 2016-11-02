@@ -1,0 +1,25 @@
+{
+  "name": "xtern-coin-solution",
+  "version": "1.0.0",
+  "description": "This is Nicholas Hubbard's solution for Xtern 2016 technical problem",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrhubbar/xtern-coin-solution.git"
+  },
+  "keywords": [
+    "xtern",
+    "xtern-coin",
+    "nicholas",
+    "hubbard"
+  ],
+  "author": "nrhubbar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nrhubbar/xtern-coin-solution/issues"
+  },
+  "homepage": "https://github.com/nrhubbar/xtern-coin-solution#readme"
+}
