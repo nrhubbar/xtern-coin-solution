@@ -1,0 +1,18 @@
+version: '2'
+services:
+  db:
+    image: bitnami/mongodb
+    ports:
+      - "27017:27017"
+      - "28017:28017"
+
+  web:
+    build: ./api/.
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    links:
+      - db
+    restart: always
+    command: node app.js
